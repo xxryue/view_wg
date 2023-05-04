@@ -107,18 +107,4 @@ add_library(yulong_km
         src/version.h
         src/device.h
         src/allowedips.h
-        src/messages.h
-
-        src/yulong/log.h
-        src/yulong/yulong.c
-        src/yulong/yulong.h
-        src/yulong/policy.c
-        src/yulong/policy.h
-        src/yulong/hook/connect.c
-        src/yulong/hook/hook.h
-        src/yulong/hook/hook_common.h
-        src/yulong/hook/init.c
-        src/yulong/hook/init.h
-        src/yulong/hook/syscall_map.c
-        src/yulong/hook/syscall_map.h
-        src/yulong/yulongnl.c src/yulong/yulongnl.h src/yulong/sys_wait.c src/yulong/sys_wait.h src/yulong/cache_common.c src/yulong/cache_common.h)
+        src/messages.h)
